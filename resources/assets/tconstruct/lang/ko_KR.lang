@@ -438,8 +438,8 @@ item.tconstruct.throwball.efln.tooltip=격발! 채광용으로 사용 가능
 # Mom's Spaghetti #
 ###################
 
-item.tconstruct.moms_spaghetti.name=Mom's Spaghetti
-item.tconstruct.moms_spaghetti.desc=Delicious!
+item.tconstruct.moms_spaghetti.name=엄마의 스파게티
+item.tconstruct.moms_spaghetti.desc=맛있어요!
 item.tconstruct.moms_spaghetti.tooltip1=§oI guess they're all right... but it's just not the same.\nThey definitely need some sauce, but it has to be red.
 item.tconstruct.moms_spaghetti.tooltip2=§oSomething is missing.. could use some meat. Mama always used ALL the meat.\nI should get at least three different meat types.
 item.tconstruct.moms_spaghetti.tooltip3=§oJust like mama used to make them.
@@ -563,53 +563,53 @@ material.slimeleaf_purple.name=material.slimeleaf_blue.name
 #############
 stat.head.name=머리
 stat.head.durability.name=내구도
-stat.head.durability.desc=The base-value for durability calculations.\nUsually an integral part to the overall durability of a tool.
+stat.head.durability.desc=내구도 계산의 기반입니다.\n보통 도구 전체 내구도의 정수 부분이 됩니다.
 stat.head.miningspeed.name=채광 속도
-stat.head.miningspeed.desc=How fast a tool with a tool head of this material can mine blocks.\nMay be influenced by other toolparts.
+stat.head.miningspeed.desc=얼마나 이 머리를 가지고 블럭을 빨리 부술 수 있는가를 나타냅니다.\n다른 파트에 영향을 받을 수 있습니다.
 stat.head.harvestlevel.name=채광 레벨
-stat.head.harvestlevel.desc=What range of blocks a tool with a tool head of this material can mine.
-stat.head.attack.name=Attack
-stat.head.attack.desc=Base value for attack calculations.\nThe end result depends on the tool itself and the other components used.
+stat.head.harvestlevel.desc=이 머리를 가지고 캘 수 있는 채광 레벨을 나타냅니다.
+stat.head.attack.name=공격력
+stat.head.attack.desc=공격력 계산의 기반입니다.\n계산 결과는 도구의 종류와 사용한 부품에 따라 달라집니다.
 
 stat.handle.name=손잡이
-stat.handle.modifier.name=Modifier
-stat.handle.modifier.desc=How suitable the tool material is as a handle.\nThe total durability of the tool will be multiplied by this.
+stat.handle.modifier.name=강화 수치
+stat.handle.modifier.desc=얼마나 쉽게 들 수 있는가를 나타냅니다.\n최종 내구도는 이만큼이 곱해진 내구도입니다.
 stat.handle.durability.name=stat.head.durability.name
-stat.handle.durability.desc=How well the material can be held.\nTool durability will be changed by this amount.
+stat.handle.durability.desc=얼마나 강하게 고정시키는지를 나타냅니다.\n이 양만큼 도구 내구도가 변합니다.
 
 stat.extra.name=나머지
 stat.extra.durability.name=stat.head.durability.name
-stat.extra.durability.desc=How much durability this part contributes when used as an accessory.
+stat.extra.durability.desc=부가로 사용할 시 추가되는 내구도 양을 나타냅니다.
 
-stat.mattock.axelevel.name=Axe Level
-stat.mattock.shovellevel.name=Shovel Level
+stat.mattock.axelevel.name=도끼 레벨
+stat.mattock.shovellevel.name=삽 레벨
 
 stat.bow.name=활
 stat.bow.drawspeed.name=당기는 속도
-stat.bow.drawspeed.desc=How fast you can draw the bow.
-stat.bow.range.name=Range Multiplier
-stat.bow.range.desc=How far the projectile can be propelled.
-stat.bow.damage.name=Bonus Damage
-stat.bow.damage.desc=Bonus damage dealt on hit.\nThe force of the arrow.
+stat.bow.drawspeed.desc=얼마나 빨리 활을 당길 수 있는지를 나타냅니다.
+stat.bow.range.name=범위
+stat.bow.range.desc=얼마나 화살이 멀리 날아가는지를 나타냅니다.
+stat.bow.damage.name=추가 대미지
+stat.bow.damage.desc=맞았을 때의 추가 데미지입니다.\n화살의 공격력입니다.
 
 stat.bowstring.name=활시위
-stat.bowstring.modifier.name=Modifier
-stat.bowstring.modifier.desc=Tool durability will be multiplied by this.
+stat.bowstring.modifier.name=강화 수치
+stat.bowstring.modifier.desc=최종 내구도는 이만큼이 곱해진 내구도입니다.
 
 stat.shaft.name=화살대
-stat.shaft.modifier.name=Modifier
-stat.shaft.modifier.desc=Each arrow needs a suiting core. It determines how well it lasts.\nThe total ammo count of the tool will be multiplied by this.
-stat.shaft.ammo.name=Bonus-Ammo
-stat.shaft.ammo.desc=How many arrows you can get out of it.\nThis much flat ammo will be added.
+stat.shaft.modifier.name=stat.bowstring.modifier.name=강화 수치
+stat.shaft.modifier.desc=화살엔 적절한 화살대가 필요합니다. 이 수치는 지속 시간을 결정합니다.\n화살 개수는 이만큼이 곱해진 개수입니다.
+stat.shaft.ammo.name=추가 화살 개수
+stat.shaft.ammo.desc=얼마나 화살을 많이 만들 수 있는가를 나타냅니다.\n이만큼의 화살 개수가 늘어납니다.
 
 stat.fletching.name=화살깃
-stat.fletching.accuracy.name=Accuracy
-stat.fletching.accuracy.desc=How stable the flight path will be using this fletching.\nAffects the overall accuracy of the projectile.
-stat.fletching.modifier.name=Modifier
-stat.fletching.modifier.desc=How many arrows you can craft with this.\nProjectile ammo will be multiplied by this.
+stat.fletching.accuracy.name=정확도
+stat.fletching.accuracy.desc=이 화살깃을 사용했을 때 궤도가 안정적인지를 나타냅니다.\n발사체 전체의 정확도에 영향을 끼칩니다.
+stat.fletching.modifier.name=강화 수치
+stat.fletching.modifier.desc=얼마나 많은 화살을 만들 수 있는지를 나타냅니다.\n발사체의 화살 개수는 이만큼이 곱해진 개수입니다.
 
 stat.projectile.name=발사체
-stat.projectile.ammo.name=Ammo
+stat.projectile.ammo.name=개수
 
 ##############
 #   Traits   #
