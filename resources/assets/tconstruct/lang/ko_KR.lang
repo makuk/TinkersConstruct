@@ -597,7 +597,7 @@ stat.bowstring.modifier.name=강화 수치
 stat.bowstring.modifier.desc=최종 내구도는 이만큼이 곱해진 내구도입니다.
 
 stat.shaft.name=화살대
-stat.shaft.modifier.name=stat.bowstring.modifier.name=강화 수치
+stat.shaft.modifier.name=강화 수치
 stat.shaft.modifier.desc=화살엔 적절한 화살대가 필요합니다. 이 수치는 지속 시간을 결정합니다.\n화살 개수는 이만큼이 곱해진 개수입니다.
 stat.shaft.ammo.name=추가 화살 개수
 stat.shaft.ammo.desc=얼마나 화살을 많이 만들 수 있는가를 나타냅니다.\n이만큼의 화살 개수가 늘어납니다.
